@@ -1,0 +1,63 @@
+# 🤖 LLM-Based Agentic Chatbot System - Requirements
+# Core dependencies for the MCP-based agentic chatbot system
+
+# FastMCP - Model Context Protocol implementation with SSE transport
+fastmcp>=0.1.0
+
+# HTTP client for agent communication
+httpx>=0.24.0
+
+# Async support and utilities
+asyncio-mqtt>=0.11.0
+
+# JSON schema validation
+jsonschema>=4.17.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Logging and debugging
+loguru>=0.7.0
+
+# Type hints support
+typing-extensions>=4.5.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Optional: Development and testing dependencies
+# Uncomment these for development environments
+
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# pytest-cov>=4.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
+
+# Optional: Enhanced functionality
+# Uncomment these for production deployments
+
+# redis>=4.5.0  # For conversation history and caching
+# sqlalchemy>=2.0.0  # For database integration
+# alembic>=1.10.0  # For database migrations
+# prometheus-client>=0.16.0  # For metrics and monitoring
+# structlog>=23.0.0  # For structured logging
+# uvicorn>=0.20.0  # For production ASGI server
+# gunicorn>=20.1.0  # For production WSGI server
+
+# Optional: Security and authentication
+# Uncomment these for secure deployments
+
+# cryptography>=40.0.0  # For encryption
+# passlib>=1.7.0  # For password hashing
+# python-jose>=3.3.0  # For JWT tokens
+# bcrypt>=4.0.0  # For secure password hashing
+
+# Optional: Monitoring and observability
+# Uncomment these for production monitoring
+
+# opentelemetry-api>=1.18.0  # For distributed tracing
+# opentelemetry-sdk>=1.18.0  # For metrics collection
+# opentelemetry-instrumentation>=0.38b0  # For auto-instrumentation
+# sentry-sdk>=1.25.0  # For error tracking and monitoring
